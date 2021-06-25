@@ -1,0 +1,181 @@
+body{
+margin: 0;
+padding: 0;
+}
+/*header strat*/
+.box {
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.logo {
+	width: 10%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img {
+	width: 100%;
+	margin-top: 10px;
+}
+.menu {
+	width: 50%;
+	/*border: 1px solid green;*/
+	float: right;
+}
+.menu ul {
+float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	margin: 0 16px;
+	color: #0C2354;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.menu ul li a:hover {
+color: #0089FF;
+}
+.menu ul li:last-child a {
+margin-right: 5px;}
+
+/*header end*/
+/*banner start*/
+.box2{
+  width: 60%;
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+}
+.banner {
+	    margin: 50px 0;
+}
+
+.box2 {
+}
+
+.b_text {
+	text-align: center;
+}
+.b_text h1{
+	font-size: 50px;
+	color: #0F2656;
+	padding: 0 90px;
+	line-height: 62px;
+}
+.b_text h1 span{
+	color: #0084FF;
+}
+.b_text p {
+  padding: 0 54px;
+  color: #0F2656;
+  line-height: 25px;
+}
+
+.b_image {  width: 75%;
+    margin: 0 auto;
+    /*border: 1px solid;*/
+}
+.b_image img {
+	  width: 100%;
+}
+/*banner end*/
+/*success start*/
+.success{ 
+	/*border: 1px solid ;*/
+	    margin: 46px 0;
+}
+.box2{
+}
+.s_contant{
+	overflow: hidden;
+	 padding: 0 15px
+}
+.s_left{
+	width: 45%;
+	float: left;
+	/*border: 1px solid;*/
+	padding: 10px 18px;
+}
+.s_left h2{
+	text-align: right;
+	color: #F15767;
+	margin: 0;
+ font-size: 57px
+}
+.s_left p{
+	    font-size: 15px;
+	    color: #0F2656;
+}
+.s_right{
+	width: 45%;
+	float: right;
+		/*border: 1px solid;*/
+		padding: 10px 18px;
+}
+.s_right h1{
+	font-size: 46px;
+	margin: 0;
+	color: #0F2656;
+}
+
+/*success end*/
+/*service start*/
+.serive {
+	padding: 50px 0;
+}
+
+.s_wrapper {
+	overflow: hidden;
+}
+.red{ background-color: #;}
+.green{background-color: #EBF9F4;}
+.blue{	}
+.s_single {
+	width: 27%;
+	/*border: 1px solid;*/
+	padding: 50px 29px;
+	float: left;
+	margin-right: 28px;
+	background-color: #FDEBED;
+}
+.s_single:last-child{
+margin-right: 0;}
+.s_img{
+
+	/*border: 1px solid;*/
+}
+.s_img img {
+	width: 100%;
+}
+.s_text{
+	/*border: 1px solid;*/
+
+}
+.s_text h2{
+color: #1A3B7C; 
+
+}
+.s_text p{
+color: #1A3B7C;
+padding: 0 10px;
+}
+
+/*service end*/
+/*footer start*/
+footer{ 
+ background-color:#008AFF ;
+ padding: 18px 0;
+ }
+ .f_text p {
+ 	text-align: center;
+ 	color: white;
+ }
+ .f_text p a{
+color: white;
+text-decoration: none;
+  }
+/*footer end*/
